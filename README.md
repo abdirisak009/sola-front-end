@@ -2,6 +2,10 @@
 
 This repository contains the front-end code for the Sola project, a web application designed to Nutrition tracking for real life.
 
+## Demo
+
+Check out the live demo of the application [here](https://sola-delta.vercel.app/). The application is currently under development.
+
 ## Features
 
 - [Feature 1: User authentication and authorization]
