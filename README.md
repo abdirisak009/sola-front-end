@@ -4,16 +4,16 @@ This repository contains the front-end code for the Sola project, a web applicat
 
 ## Features
 
-- [Feature 1: e.g., User authentication and authorization]
-- [Feature 2: e.g., Interactive dashboards]
-- [Feature 3: e.g., Real-time data visualization]
+- [Feature 1: User authentication and authorization]
+- [Feature 2: Interactive dashboards]
+- [Feature 3: Real-time data visualization]
 
 ## Technologies Used
 
-- **Framework**: [e.g., React, Angular, Vue.js]
-- **Styling**: [e.g., Tailwind CSS, Bootstrap, SCSS]
-- **State Management**: [e.g., Redux, Context API]
-- **API Integration**: [e.g., Axios, Fetch API]
+- **Framework**: [React, Express]
+- **Styling**: [Tailwind CSS]
+- **State Management**: [Redux, Context API]
+- **API Integration**: [Axios, Fetch API]
 
 ## Getting Started
 
