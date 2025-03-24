@@ -1,13 +1,15 @@
 import React from "react";
-// import LifestyleMindset from "./pages/LifestyleMindset";
+import LifestyleMindset from "./pages/LifestyleMindset";
+import Header from "./components/Header";
 
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-blue-600 text-7xl text-center font-bold">
+      <LifestyleMindset />
+      {/* <h1 className="text-blue-600 text-7xl text-center font-bold">
         Hello My app
-      </h1>
+      </h1> */}
     </div>
   );
 };
