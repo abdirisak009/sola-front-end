@@ -1,6 +1,7 @@
 import React from "react";
 // import LifestyleMindset from "./pages/LifestyleMindset";
 
+
 const App = () => {
   return (
     <div>
