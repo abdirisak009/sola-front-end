@@ -184,7 +184,7 @@ const Understand=()=>{
     </>
   )
 }
-
+//  end cards
 
 function Balanced(){
   return(
