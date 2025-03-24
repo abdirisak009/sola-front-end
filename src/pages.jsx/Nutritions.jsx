@@ -2,6 +2,7 @@
 import mediterranean from '../assets/img/mediterranean.jpg'
 import katagonicdiet from '../assets/img/katagonicdiet.jpg'
 import plantbaseddiet  from '../assets/img/plantbaseddiet.jpg'
+import planbased  from '../assets/img/planbased.jpg'
 import paleodiet  from '../assets/img/paleodiet .jpg'
 import intermmitentfasting  from '../assets/img/intermmitentfasting.jpg'
 import Dashdiet  from '../assets/img/Dashdiet.jpg'
@@ -67,7 +68,7 @@ const Popular=() =>{
 {/* img 3 */}
 
 <div className="img3">
-<img className='w-full rounded-lg' src={plantbaseddiet} alt="" />
+<img className='w-full rounded-lg' src={planbased} alt="" />
    <h3 className='text-xl font-bold my-4 font-[Roboto]'>Plant-Based Diet</h3>
    <p className='font-light font-[Roboto]'>Focuses on foods derived from p;amts with <br/> limited or no animal products. supports<br/> environmental sustainability</p>
    <div className='flex gap-4 font-semi-bold my-6'>
