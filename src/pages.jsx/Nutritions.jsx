@@ -1,6 +1,6 @@
 
 import mediterranean from '../assets/img/mediterranean.jpg'
-import katagonicdiet from '../assets/img/katagonicdiet.jpg'
+import katogonic from '../assets/img/katogonic.jpg'
 import plantbaseddiet  from '../assets/img/plantbaseddiet.jpg'
 import planbased  from '../assets/img/planbased.jpg'
 import paleodiet  from '../assets/img/paleodiet .jpg'
@@ -21,7 +21,7 @@ const Nutrition = () => {
   <>
    <div className='bg-[#44B75E] text-white text-center py-15'>
    <h2 className='text-5xl font-[Roboto] font-bold'>Nutrition & Diet Guide</h2>
-   <p className='font-[Roboto] font-semi-bold'>Discover the Science of nutrition, explore different diet types. and learn how to create<br/> blanced meal plans for optical health</p>
+   <p className='font-[Poppins] font-semi-bold'>Discover the Science of nutrition, explore different diet types. and learn how to create<br/> blanced meal plans for optical health</p>
    <button className='bg-white rounded-full text-[#44B75E] px-4 py-2 mt-4 font-[Roboto] cursor-pointer'>Explore Diet</button>
    </div>
 
@@ -56,7 +56,7 @@ const Popular=() =>{
 </div>
 {/* img 2 */}
 <div className="img2">
-<img className='w-full rounded-lg' src={katagonicdiet} alt="" />
+<img className='w-full rounded-lg' src={katogonic} alt="" />
    <h3 className='text-xl font-bold my-4 font-[Roboto]'>Ketogenic Diet</h3>
    <p className='font-light font-[Roboto]'>Very low-carb, hight-fat diet that shifts the <br/> body  into ketosis. popular for weigh  loss and <br/> metabolic health</p>
    <div className='flex gap-3 font-semi-bold my-6'>
@@ -97,9 +97,9 @@ const Popular=() =>{
    <h3 className='text-xl font-bold my-4 font-[Roboto]'>Intermmitent Fasting</h3>
    <p className='font-light font-[Roboto]'>Cycling between pariods of eating and fasting <br/> Various methods  include  16/8,5:2 and <br/> alternate -day fasting.</p>
    <div className='flex gap-4 font-semi-bold my-6'>
-  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Whole foods</a>
-  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Grain-free</a>
-  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Low suger</a>
+  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>metabolic</a>
+  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Flexible</a>
+  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Autophagy</a>
   </div>
 </div>
 
@@ -110,9 +110,9 @@ const Popular=() =>{
    <h3 className='text-xl font-bold my-4'>DASH Diet</h3>
    <p className='font-light font-[Roboto]'>Design to prevent and lower high  blood <br/> pressute.Emphasizes fruits,  vegetables, whole <br/> grains, and low-fat dairy.</p>
    <div className='flex gap-4 font-semi-bold my-6'>
-  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Whole foods</a>
-  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Grain-free</a>
-  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Low suger</a>
+  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Blood presure</a>
+  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Low sodium</a>
+  <a href="#" className='bg-[#d8ede2] px-2 py-1 rounded-full'>Heart-Health</a>
   </div>
 </div>
 
@@ -185,7 +185,7 @@ const Understand=()=>{
     </>
   )
 }
-//  end cards
+
 
 function Balanced(){
   return(
@@ -223,7 +223,7 @@ function Balanced(){
       <span><h3><img className='w-10' src={batchcooks} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Batch cooks</h3>
       </div>
-      <p className='font-thin font-[Roboto]'> Prepare grains, proteins, and roasted vegetebles in advace for quickly meal assembly, throughout the week.</p>
+      <p className='font-thin font-[Poppins]'> Prepare grains, proteins, and roasted vegetebles in advace for quickly meal assembly, throughout the week.</p>
       
       {/* icon2 */}
 
@@ -231,7 +231,7 @@ function Balanced(){
       <span><h3><img className='w-10' src={investment} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Invest in quality containers</h3>
       </div>
-      <p className='font-thin font-[Roboto]'> Use glass containers with compartments to keep foods seperate and maintain freshness. </p>
+      <p className='font-thin font-[Poppins]'> Use glass containers with compartments to keep foods seperate and maintain freshness. </p>
       
      
   {/* icon3 */}
@@ -240,7 +240,7 @@ function Balanced(){
       <span><h3><img className='w-10' src={time} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>Plan ahead</h3>
       </div>
-      <p className='font-thin font-[Roboto]'>Set aside dedicated time each week for meal planing , shopping , and preparation.</p>
+      <p className='font-thin font-[Poppins]'>Set aside dedicated time each week for meal planing , shopping , and preparation.</p>
       
      {/* icon4 */}
 
@@ -248,11 +248,11 @@ function Balanced(){
      <span><h3><img className='w-10' src={approach} alt="" /> </h3></span>
       <h3 className='mt-2 font-bold font-[Roboto]'>use the rainbow approach</h3>
       </div>
-      <p className='font-thin font-[Roboto]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
+      <p className='font-thin font-[Poppins]'>include a variety of colorful  fruits and vegetables to ensure  a wide range of nutrients</p>
       
-    <div className="end bg-[#d8ede2] mt-7 p-3">
+    <div className="end bg-[#d8ede2] mt-7 p-3 ">
     <h4 className='pr-90 py-2 font-semi-bold '>Pro Tip</h4>
-    <p className='font-thin font-[Roboto]'>Freeze individual of  soups, stews and  casseroles for quick,  nutritious meals when you're  shor on time.</p>
+    <p className='font-thin font-[Poppins]'>Freeze individual of  soups, stews and  casseroles for quick,  nutritious meals when you're  shor on time.</p>
     </div>
       </div>
 
