@@ -7,7 +7,7 @@ import { FaRegFaceSmile } from "react-icons/fa6";
 const PowerofMindset = () => {
   return (
     <>
-        <div className='max-w-6xl mx-auto my-25'>
+        <div className='max-w-sm md:max-w-6xl mx-auto my-25'>
             <div className='space-y-2'>
                 <h1 className='text-3xl md:text-4xl font-bold tracking-wide text-[#000] text-center max-w-3xl mx-auto'>The Power of Mindset </h1>
                 <p className='text-[16px] text-gray-500 text-center max-w-[85%] mx-auto'>Your thoughts shape your reality. Cultivate a positive mindset to transform your health journey</p>
