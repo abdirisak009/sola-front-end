@@ -2,6 +2,7 @@ import React from 'react'
 import { FaRegBell } from "react-icons/fa";
 import khudaar from '../assets/images/khudaar.jpg'
 import { BsJournalArrowUp } from "react-icons/bs";
+import StressManagementCard from './StressManagementCard';
 
 const StressManagement = () => {
   return (
@@ -21,21 +22,10 @@ const StressManagement = () => {
                 </div>
             </div>
             <div className='max-w-sm md:max-w-[90%] lg:max-w-1/2 space-y-7'>
-                <div className="bg-white rounded-[10px] px-5 py-7 space-y-3">
-                    <div className='w-[45px] h-[45px] rounded-full bg-[#dcfce7] flex items-center justify-center'>
-                    <FaRegBell className='text-[#22c55e] text-2xl' />
-                    </div>
-                    <h3 className='text-xl tracking-wide font-bold'>Deep Breathing </h3>
-                    <p className='text-sm tracking-wide text-gray-500 font-[400]'>Activates the parasympathetic nervous system, triggering relaxation. Try the 4-7-8 technique: inhale for 4 counts, hold for 7, exhale for 8. </p>
-                </div>
+                
+                <StressManagementCard  icon={FaRegBell} title="Deep Breathing" text="Activates the parasympathetic nervous system, triggering relaxation. Try the 4-7-8 technique: inhale for 4 counts, hold for 7, exhale for 8." />
 
-                <div className="bg-white rounded-[10px] px-5 py-7 space-y-3">
-                    <div className='w-[45px] h-[45px] rounded-full bg-[#dcfce7] flex items-center justify-center'>
-                    <BsJournalArrowUp className='text-[#22c55e] text-2xl' />
-                    </div>
-                    <h3 className='text-xl tracking-wide font-bold'>Journaling </h3>
-                    <p className='text-sm tracking-wide text-gray-500 font-[400]'>Writing down thoughts and feelings helps process emotions and gain perspective. Spend 10 minutes daily with free-form writing or guided prompts. </p>
-                </div>
+                <StressManagementCard icon={BsJournalArrowUp} title="Journaling" text="Writing down thoughts and feelings helps process emotions and gain perspective. Spend 10 minutes daily with free-form writing or guided prompts."/>
             </div>
         </div>
     </div>
