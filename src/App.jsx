@@ -1,13 +1,11 @@
-import React from "react";
-import LifestyleMindset from "./pages/LifestyleMindset";
+
+import React from 'react'
 
 const App = () => {
   return (
-   <>
-    <LifestyleMindset />
+    <></>
+  )
+}
 
-   </>
-  );
-};
+export default App
 
-export default App;
