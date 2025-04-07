@@ -26,7 +26,7 @@ const SleepOpt = () => {
                 Sleep is not merely rest-it's an active period of restoration
                 and processing. During sleep, your body:{" "}
               </p>
-              <ul className="list-disc list-inside marker:text-[#22c55e] mt-2 text-gray-500 space-y-2">
+              <ul className="list-disc list-inside marker:text-[#22c55e] marker:text-xs mt-2 text-gray-500 space-y-2">
                 <li>Repairs tissues and strengthens immune function </li>
                 <li>Consolidates memories and learning </li>
                 <li>
@@ -34,6 +34,8 @@ const SleepOpt = () => {
                 </li>
                 <li>Clears waste products from the brain </li>
                 <li>Balances emotional regulation </li>
+                <li>Enhances cognitive function and creativity</li>
+                <li>Supports cardiovascular health</li>
               </ul>
             </div>
           </div>
