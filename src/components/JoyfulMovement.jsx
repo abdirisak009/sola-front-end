@@ -4,7 +4,7 @@ const JoyfulMovement = () => {
   return (
     <div>
       <h1 className="text-5xl text-green-500 text-center py-20">
-        HEllo, This JoyfulMovement Section
+        Hello, This JoyfulMovement Section
       </h1>
     </div>
   );
