@@ -13,6 +13,7 @@ import batchcooks from '../assets/icons/batchcooks.png'
 import investment from '../assets/icons/investment.png'
 import approach from '../assets/icons/approach.png'
 import time from '../assets/icons/time.png'
+// import time from '../assets/icons/time.png'
 import fatplantbaseddiets from '../assets/img/plantbaseddiet.jpg'
 import React from 'react'
 
