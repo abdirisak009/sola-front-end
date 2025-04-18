@@ -310,5 +310,5 @@ function Frequently(){
   )
 }
 
-
+// end page
 export default Nutrition;
