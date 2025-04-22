@@ -15,7 +15,7 @@ const SleepOpt = () => {
             emotional wellbeing{" "}
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-between gap-10  mt-10">
+        <div className="flex flex-col md:flex-col lg:flex-row justify-between gap-10  mt-10">
           <div className="bg-gray-100 max-w-[90%] lg:w-1/2 mx-auto rounded-[10px] p-5">
             <div className="flex items-center gap-2">
               <IconBox icon={FaRegMoon} />
