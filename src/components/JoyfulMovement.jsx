@@ -1,9 +1,9 @@
 import React from "react";
 import JoyfulCard from "./JoyfulCard";
-import yoga from "../assets/images/joyfull-04.jpg";
-import hiking from "../assets/images/joyfull-02.jpg";
-import dance from "../assets/images/joyfull-01.jpg";
-import strength from "../assets/images/joyfull-03.jpg";
+import yoga from "../assets/images/yoga.jpg";
+import hiking from "../assets/images/hiking.jpg";
+import dance from "../assets/images/dance.jpg";
+import strength from "../assets/images/strength.jpg";
 
 const JoyfulMovement = () => {
   return (
