@@ -6,6 +6,7 @@ import StressManagement from "../components/StressManagement";
 import SleepOpt from "../components/SleepOpt";
 import JoyfulMovement from "../components/JoyfulMovement";
 import MindFulness from "../components/MindFulness";
+import MindFulnessDaily from "../components/MindFulnessDaily";
 
 const LifestyleMindset = () => {
   return (
@@ -32,9 +33,15 @@ const LifestyleMindset = () => {
         <JoyfulMovement />
       </section>
       {/* Mindfullness section */}
-      <section className="bg-[#fff] min-h-screen">
+      <section className="bg-[#fff] min-h-[90vh]">
         <MindFulness />
       </section>
+      {/* last section */}
+      <section className="bg-[#fff] min-h-[50vh] py-10">
+        <MindFulnessDaily />
+      </section>
+      {/* Footer */}
+      {/* <Footer /> */}
     </>
   );
 };

@@ -18,8 +18,8 @@ const JoyfulMovement = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between gap-10 mt-10 max-w-6xl mx-auto">
-        <div className="mt-3 space-y-3 max-w-[90%] md:max-w-[90%] lg:w-1/2">
+      <div className="flex flex-col md:flex-col lg:flex-row justify-between gap-10 mt-10 max-w-6xl mx-auto">
+        <div className="mt-3 space-y-3 max-w-[90%] md:max-w-[90%] lg:w-1/2 mx-auto">
           <h3 className="text-[18px] font-bold">Beyond "Exercise"</h3>
           <p className="text-gray-500">
             When movement becomes something you look forward to rather than a
@@ -58,7 +58,7 @@ const JoyfulMovement = () => {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-[90%] md:max-w-[90%] lg:w-1/2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-[90%] md:max-w-[90%] lg:w-1/2 mx-auto">
           <JoyfulCard
             src={yoga}
             title="Yoga & Stretching"
