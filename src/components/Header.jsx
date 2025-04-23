@@ -9,7 +9,7 @@ const Header = () => {
     <nav className='bg-[#D8EFE2] flex justify-between text-center items-center rounded-full px-14 py-3'>
         <img className='w-40' src="/src/assets/images/logo.png" alt="" />
         <div className='flex gap-20 '>
-        <ul className='flex gap-10 text-xl cursor-pointer'>
+        <ul className='hidden md:flex gap-10 text-xl cursor-pointer'>
             <li>Weight Loss</li>
             <li>Nutrition & Diet</li>
             <li>Recipes & Cooking</li>
