@@ -1,10 +1,11 @@
 import React from "react";
-import Nutrition from "./pages/Nutrition";
+import Nutrition from './pages/Nutration'
 
 const App = () => {
   return (
     <>
-      <Nutrition />
+    {/* <LifestyleMindset /> */}
+
     </>
   );
 };
