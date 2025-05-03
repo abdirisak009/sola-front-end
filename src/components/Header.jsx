@@ -9,7 +9,10 @@ const Header = () => {
       </style>
       <div className="my-5 mx-4 font-[Poppins]">
         <nav className="bg-[#D8EFE2] flex justify-between text-center items-center rounded-full px-14 py-3">
-          <img className="w-40" src="/src/assets/images/logo.png" alt="" />
+          <Link to="/" className="hover:text-green-600">
+            <img className="w-40" src="/src/assets/images/logo.png" alt="" />
+          </Link>
+
           <div className="flex gap-20 ">
             <ul className="hidden md:flex gap-10 text-xl cursor-pointer">
               <li>
