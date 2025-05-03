@@ -23,7 +23,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/Nutration" className="hover:text-green-600">
+                <Link to="/Recipes" className="hover:text-green-600">
                   Recipes & Cooking
                 </Link>
               </li>
@@ -33,7 +33,11 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <button className="text-lg font-bold cursor-pointer">SignIn</button>
+            <button className="text-lg font-bold cursor-pointer">
+              <Link to="/SignIn" className="hover:text-green-600">
+                SignIn
+              </Link>
+            </button>
           </div>
         </nav>
       </div>
