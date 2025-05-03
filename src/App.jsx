@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 // import Header from "./components/Header";
 import LifestyleMindset from "./pages/LifestyleMindset";
 import WeightLose from "./components/WeightLose";
+import SignIn from "./components/SignIn";
 import SingIn from "./components/SignIn";
 import Nutration from "./pages/Nutration";
 import { Route, Routes } from "react-router-dom";
