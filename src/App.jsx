@@ -3,8 +3,6 @@ import Hero from "./components/Hero";
 // import Header from "./components/Header";
 import LifestyleMindset from "./pages/LifestyleMindset";
 import WeightLose from "./components/WeightLose";
-import SignIn from "./components/SignIn";
-import SingIn from "./components/SignIn";
 import Nutration from "./pages/Nutration";
 import { Route, Routes } from "react-router-dom";
 import SignIn from "./components/SignIn";
@@ -18,7 +16,6 @@ const App = () => {
         <Route path="/Nutration" element={<Nutration />}></Route>
         <Route path="/WeightLose" element={<WeightLose />}></Route>
         <Route path="/Recipes" element={<Recipes />}></Route>
-        <Route path="/SingIn" element={<SingIn />}></Route>
         <Route path="/LifestyleMindset" element={<LifestyleMindset />}></Route>
         <Route path="/SignIn" element={<SignIn />}></Route>
       </Routes>
