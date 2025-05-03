@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../assets/images/heroImage.jpg";
-import flag from "../assets/images/flag.png";
+import flag from "../assets/images/Flag.png";
 import hum from "../assets/images/heroHum.png";
 import certificate from "../assets/images/certificate.png";
 import HeroWomen from "../assets/images/heroWomen.jpg";
