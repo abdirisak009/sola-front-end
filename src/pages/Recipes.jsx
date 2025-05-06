@@ -40,11 +40,11 @@ const Recipes = () => {
       <section className="max-w-6xl mx-auto py-15 min-h-screen">
         <div className="space-y-2 mb-4">
           <h1 className="text-3xl md:text-4xl font-bold tracking-wide text-[#000] text-center max-w-3xl mx-auto">
-            The Power of Mindset{" "}
+            Browse Recipe Categories
           </h1>
           <p className="text-[16px] text-gray-500 text-center max-w-[85%] mx-auto">
-            Your thoughts shape your reality. Cultivate a positive mindset to
-            transform your health journey
+            Find the perfect recipe for any meal, dietary preference, or
+            occasion
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 lg:px-0">
