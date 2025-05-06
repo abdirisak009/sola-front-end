@@ -1,4 +1,8 @@
 import React from "react";
+
+
+
+
 import Hero from "./components/Hero";
 // import Header from "./components/Header";
 import LifestyleMindset from "./pages/LifestyleMindset";
@@ -8,9 +12,14 @@ import { Route, Routes } from "react-router-dom";
 import SignIn from "./components/SignIn";
 import Recipes from "./pages/Recipes";
 
+
 const App = () => {
   return (
     <>
+
+    {/* <LifestyleMindset /> */}
+    
+
       <Routes>
         <Route path="/" element={<Hero />}></Route>
         <Route path="/Nutration" element={<Nutration />}></Route>
@@ -19,6 +28,7 @@ const App = () => {
         <Route path="/LifestyleMindset" element={<LifestyleMindset />}></Route>
         <Route path="/SignIn" element={<SignIn />}></Route>
       </Routes>
+
     </>
   );
 };
