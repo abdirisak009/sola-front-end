@@ -8,6 +8,10 @@ import Vegetarian from "../assets/images/pleodiet.jpg";
 import Vegan from "../assets/images/khudaar.jpg";
 import Gluton from "../assets/images/katagonicdiet.jpg";
 import Quick from "../assets/images/katogonic.jpg";
+import { CiClock2 } from "react-icons/ci";
+import { LuFlame } from "react-icons/lu";
+import { GiKnifeFork } from "react-icons/gi";
+import { FaArrowRight } from "react-icons/fa";
 
 const Recipes = () => {
   return (
@@ -38,7 +42,7 @@ const Recipes = () => {
       </section>
 
       <section className="max-w-6xl mx-auto py-15 min-h-screen">
-        <div className="space-y-2 mb-4">
+        <div className="space-y-2 mb-4 ">
           <h1 className="text-3xl md:text-4xl font-bold tracking-wide text-[#000] text-center max-w-3xl mx-auto">
             Browse Recipe Categories
           </h1>
@@ -103,6 +107,107 @@ const Recipes = () => {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="min-h-[90vh]">
+        <div className="max-w-6xl mx-auto">
+          <div className="space-y-2 mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-wide text-[#000] text-center max-w-3xl mx-auto">
+              Featured Recipes
+            </h1>
+            <p className="text-[16px] text-gray-500 text-center max-w-[85%] mx-auto">
+              Our most popular, nutritionist-approved recipes
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
+            {[
+              {
+                img: Vegetarian,
+                tagtext: "Vegetarian",
+                Timeicon: <CiClock2 />,
+                Flameicon: <LuFlame />,
+                Forkicon: <GiKnifeFork />,
+                time: "25 mins",
+                cal: "380 cal",
+                level: "easy",
+                title: "Mediterranean Quinoa Bowl",
+                text: "Protein-packed quinoa with roasted vegetables, chickpeas, and a lemon-tahini dressing.",
+              },
+              {
+                img: Dinner,
+                tagtext: "High Protein",
+                Timeicon: <CiClock2 />,
+                Flameicon: <LuFlame />,
+                Forkicon: <GiKnifeFork />,
+                time: "30 mins",
+                cal: "420 cal",
+                level: "Medium",
+                title: "Grilled Salmon with Avocado Salsa",
+                text: "Omega-3 rich salmon topped with fresh avocado salsa for a nutrient-dense dinner.",
+              },
+              {
+                img: Vegan,
+                tagtext: "Vegan",
+                Timeicon: <CiClock2 />,
+                Flameicon: <LuFlame />,
+                Forkicon: <GiKnifeFork />,
+                time: "5 mins + overnight",
+                cal: "320 cal",
+                level: "Easy",
+                title: "Overnight Chia Pudding",
+                text: "Fiber-rich breakfast with chia seeds, plant milk, and fresh berries for sustained energy.",
+              },
+            ].map((feature, index) => (
+              <div className="max-w-sm rounded-xl overflow-hidden bg-white shadow-sm p-4">
+                {/* Tag */}
+                <div className="flex justify-end mb-2">
+                  <span className="text-sm font-semibold bg-green-100 text-green-600 px-3 py-1 rounded-full">
+                    {feature.tagtext}
+                  </span>
+                </div>
+
+                {/* Image */}
+                <div className="w-full h-40 overflow-hidden rounded-md mb-4">
+                  <img
+                    src={feature.img}
+                    alt="Grilled Salmon with Avocado Salsa"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                {/* Metadata */}
+                <div className="flex items-center text-gray-500 text-sm space-x-4 mb-2">
+                  <span className="flex items-center gap-1">
+                    {feature.Timeicon} {feature.time}
+                  </span>
+                  <span className="flex items-center gap-1">
+                    {feature.Flameicon} {feature.cal}
+                  </span>
+                  <span className="flex items-center gap-1">
+                    {feature.Forkicon} {feature.level}
+                  </span>
+                </div>
+
+                {/* Title & Description */}
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                  {feature.title}
+                </h3>
+                <p className="text-sm text-gray-600 mb-4">{feature.text}</p>
+
+                {/* Link */}
+                <a
+                  href="#"
+                  className="text-green-600 text-sm font-medium hover:underline inline-flex items-center"
+                >
+                  View Recipe{" "}
+                  <span className="ml-1">
+                    <FaArrowRight />
+                  </span>
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </>
