@@ -12,6 +12,8 @@ import { CiClock2 } from "react-icons/ci";
 import { LuFlame } from "react-icons/lu";
 import { GiKnifeFork } from "react-icons/gi";
 import { FaArrowRight } from "react-icons/fa";
+import Iconsbox from "../components/IconsBox";
+import { GiCook } from "react-icons/gi";
 
 const Recipes = () => {
   return (
@@ -207,6 +209,93 @@ const Recipes = () => {
                 </a>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="min-h-screen py-5">
+        <div className="max-w-6xl mx-auto">
+          <div className="space-y-2 mb-4 ">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-wide text-[#000] text-center max-w-3xl mx-auto">
+              Master Essential Cooking Techniques
+            </h1>
+            <p className="text-[16px] text-gray-500 text-center max-w-[85%] mx-auto">
+              Learn the fundamental skills that will elevate your cooking
+            </p>
+          </div>
+
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
+            <div className="bg-white rounded-2xl shadow p-4  w-[90%] lg:w-1/2">
+              {/* Icon */}
+              <div className="mb-4">
+                <Iconsbox icon={GiCook} />
+              </div>
+
+              {/* Title */}
+              <h2 className="text-xl font-semibold text-gray-900">
+                Knife Skills
+              </h2>
+
+              {/* Description */}
+              <p className="text-gray-600 mt-2">
+                Proper knife techniques are the foundation of efficient cooking.
+                Learn how to chop, dice, julienne, and more.
+              </p>
+
+              {/* Video Thumbnail (Image) */}
+              <div className="mt-4 rounded-lg overflow-hidden relative">
+                <img
+                  src={Vegetarian}
+                  alt="Knife skills tutorial"
+                  className="w-full h-54 object-cover"
+                />
+                {/* Optional play button overlay */}
+              </div>
+
+              {/* Link */}
+              <a
+                href="#"
+                className="text-green-600 font-medium mt-4 inline-block"
+              >
+                Watch Tutorial →
+              </a>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow p-4 w-[90%] lg:w-1/2">
+              {/* Icon */}
+              <div className="mb-4">
+                <Iconsbox icon={LuFlame} />
+              </div>
+
+              {/* Title */}
+              <h2 className="text-xl font-semibold text-gray-900">
+                Knife Skills
+              </h2>
+
+              {/* Description */}
+              <p className="text-gray-600 mt-2">
+                Proper knife techniques are the foundation of efficient cooking.
+                Learn how to chop, dice, julienne, and more.
+              </p>
+
+              {/* Video Thumbnail (Image) */}
+              <div className="mt-4 rounded-lg overflow-hidden relative">
+                <img
+                  src={Vegetarian}
+                  alt="Knife skills tutorial"
+                  className="w-full h-54 object-cover"
+                />
+                {/* Optional play button overlay */}
+              </div>
+
+              {/* Link */}
+              <a
+                href="#"
+                className="text-green-600 font-medium mt-4 inline-block"
+              >
+                Watch Tutorial →
+              </a>
+            </div>
           </div>
         </div>
       </section>
